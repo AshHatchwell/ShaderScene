@@ -34,7 +34,8 @@ bool Mesh::loadMesh(const char* path, const std::vector<unsigned int>* textures)
 
 	bool success = tinyobj::LoadObj(meshShapes, meshMaterials, meshError, path);
 	// Make it crash yay
-	assert("Failed to load mesh!" && success);
+    if (!success)
+        return false;
 
 	// Resize our data vectors
 	m_meshVertexData.resize(meshShapes.size());
