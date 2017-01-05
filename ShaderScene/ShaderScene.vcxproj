@@ -100,13 +100,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(ProjectDir)bin\</OutDir>
-    <IncludePath>$(ProjectDir)dep/tinyobjloader;$(ProjectDir)src/h;$(SolutionDir)dep/opengl-4.4;$$(ProjectDir)dep/glm;$(ProjectDir)dep/glfw-3.1.2/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>$(ProjectDir)dep/tinyobjloader;$(ProjectDir)src/h;$(SolutionDir)dep/opengl-4.4;$(ProjectDir)dep/glm;$(ProjectDir)dep/glfw-3.1.2/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>$(ProjectDir)dep/glfw-3.1.2/src/$(Configuration);$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
     <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(ProjectDir)bin\</OutDir>
-    <IncludePath>$(ProjectDir)dep/tinyobjloader;$(ProjectDir)src/h;$(SolutionDir)dep/opengl-4.4;$$(ProjectDir)dep/glm;$(ProjectDir)dep/glfw-3.1.2/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>$(ProjectDir)dep/tinyobjloader;$(ProjectDir)src/h;$(SolutionDir)dep/opengl-4.4;$(ProjectDir)dep/glm;$(ProjectDir)dep/glfw-3.1.2/include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>$(ProjectDir)dep/glfw-3.1.2/src/$(Configuration);$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
