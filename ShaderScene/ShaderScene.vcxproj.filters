@@ -85,8 +85,4 @@
     <None Include="data\shaders\base\base.vert" />
     <None Include="data\shaders\base\base.frag" />
   </ItemGroup>
-  <ItemGroup>
-    <Object Include="data\models\bunnynormals.obj" />
-    <Object Include="data\models\Bunny.obj" />
-  </ItemGroup>
 </Project>
